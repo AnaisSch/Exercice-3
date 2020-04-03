@@ -1,10 +1,10 @@
 import React from 'react';
-import CreateComment from './pages/CreateComment';
+import DeleteComment from './pages/DeleteComment';
 
 function App() {
   return (
     <div >
-        < CreateComment /> 
+        < DeleteComment /> 
     </div>
   );
 }
