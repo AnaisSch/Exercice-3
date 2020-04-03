@@ -1,10 +1,10 @@
 import React from 'react';
-import DeleteComment from './pages/DeleteComment';
+import Home from './pages/Home';
 
 function App() {
   return (
     <div >
-        < DeleteComment /> 
+        < Home /> 
     </div>
   );
 }
