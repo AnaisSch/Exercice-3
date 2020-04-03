@@ -37,34 +37,43 @@ const CreateComment = () => {
         <Container>
             <Form onSubmit={handleSubmit}>
                 <Form.Group controlId="article.id">
-                <Form.Label> Identifiant de l'article</Form.Label>
+                    <Form.Label>
+                        Identifiant de l'article
+                    </Form.Label>
                 <Form.Control
                     type="text"
                     name="article_id"
                     onChange={handleChange}
                     value={articleId}
-                    />
+                />
                 </Form.Group>
                 <Form.Group controlId="comment.content">
-                <Form.Label>Contenu du commentaire</Form.Label>
+                    <Form.Label>
+                        Contenu du commentaire
+                    </Form.Label>
                 <Form.Control
                     type="textarea"
                     name="content"
                     onChange={handleChange}
                     value={content}
-                    />
+                />
                 </Form.Group>
                 <Form.Group controlId="comment.author">
-                <Form.Label>Id du commentaire</Form.Label>
+                    <Form.Label>
+                        Id du commentaire
+                    </Form.Label>
                 <Form.Control
                     type="number"
                     name="author"
                     onChange={handleChange}
                     value={author}
-                    placeholder="Id de l'auteur"
-                        />
+                />
                 </Form.Group>
-            <Button variant="warning" type="submit">Créer un commentaire</Button>
+                <Button
+                    variant="warning"
+                    type="submit">
+                    Créer un commentaire
+                </Button>
             </Form>
         </Container>
     );

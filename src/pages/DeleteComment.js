@@ -29,12 +29,16 @@ const DeleteComment = () => {
                 <Form.Label>Id du commentaire</Form.Label>
                 <Form.Control
                     type="number"
-                        name="id"
-                        onChange={handleChange}
-                        value={id}
+                    name="id"
+                    onChange={handleChange}
+                    value={id}
                 />
             </Form.Group>
-            <Button variant="danger" type="submit">Supprimer un commentaire</Button>
+                <Button
+                    variant="danger"
+                    type="submit">
+                    Supprimer un commentaire
+                </Button>
         </Form>
     </Container>
 
