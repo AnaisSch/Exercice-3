@@ -36,7 +36,7 @@ const CreateComment = () => {
     return ( 
         <Container>
             <Form onSubmit={handleSubmit}>
-                <Form.Group controlId="article.id">
+                <Form.Group controlId="comment.articleId">
                     <Form.Label>
                         Identifiant de l'article
                     </Form.Label>
@@ -60,7 +60,7 @@ const CreateComment = () => {
                 </Form.Group>
                 <Form.Group controlId="comment.author">
                     <Form.Label>
-                        Id du commentaire
+                        Id de l'auteur du commentaire
                     </Form.Label>
                 <Form.Control
                     type="number"
